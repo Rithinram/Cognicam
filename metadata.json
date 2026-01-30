@@ -1,0 +1,8 @@
+{
+  "name": "CivicLogic - Smart City Video Analytics",
+  "description": "A high-performance government-grade analytics platform for urban surveillance, traffic monitoring, and emergency dispatch, featuring AI-driven perception and rule-based reasoning.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
