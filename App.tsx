@@ -15,6 +15,8 @@ import Documentation from './pages/Documentation';
 import Login from './pages/Login';
 import OfficialRequests from './pages/OfficialRequests';
 import OfficialAnalytics from './pages/OfficialAnalytics';
+import OfficialVault from './pages/OfficialVault';
+import OfficialResources from './pages/OfficialResources';
 import IncidentForecasting from './pages/IncidentForecasting';
 import { AppMode, UserRole, OfficialTask } from './types';
 import { AlertTriangle, X } from 'lucide-react';
@@ -148,6 +150,8 @@ const App: React.FC = () => {
               <>
                 <Route path="/official/requests" element={<OfficialRequests tasks={officialTasks.filter(t => t.status === 'pending')} onComplete={completeOfficialTask} />} />
                 <Route path="/official/analytics" element={<OfficialAnalytics />} />
+                <Route path="/official/vault" element={<OfficialVault />} />
+                <Route path="/official/resources" element={<OfficialResources />} />
                 <Route path="/settings" element={<SettingsPage />} />
                 <Route path="*" element={<Navigate to="/official/requests" replace />} />
               </>

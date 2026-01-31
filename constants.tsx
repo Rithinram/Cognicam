@@ -30,6 +30,8 @@ export const NAVIGATION_ITEMS = [
 export const OFFICIAL_NAVIGATION_ITEMS = [
   { name: 'Requests', path: '/official/requests', icon: <Activity size={20} /> },
   { name: 'Service Metrics', path: '/official/analytics', icon: <FileBarChart size={20} /> },
+  { name: 'Evidence Vault', path: '/official/vault', icon: <Lock size={20} /> },
+  { name: 'Resource Management', path: '/official/resources', icon: <LayoutDashboard size={20} /> },
   { name: 'Settings', path: '/settings', icon: <Settings size={20} /> },
 ];
 
